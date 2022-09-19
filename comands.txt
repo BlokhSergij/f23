@@ -7,3 +7,5 @@ git commit -m 'first page' создать слепок кода
 git push отправить на удаленный репозиторий 
 
 git status 
+
+git checkout -b nameBranch
