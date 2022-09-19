@@ -1,7 +1,13 @@
 git clone url - клонирование репозитория себе
 
-git add .
+git status
 
-git commit -m 'first page'
+git add . - добавить все файлы в git
 
-git push 
+git commit -m'first page' - создать слепок кода
+
+git push - отправить на git
+
+git checkout -b devMiko  - создать новую ветку
+
+git checkout devMiko - переключиться  на ветку
