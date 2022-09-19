@@ -1,19 +1,17 @@
 <!DOCTYPE html>
-<!-- !DOCTYPE  сам тег  html  -->
-<html lang="en">
+<html lang="ua">
 	<head>
-		<meta charset="utf-8" />
-		<title>First super page</title>
-		<link href="css/style.css" rel="stylesheet" />
-		<style>
-            h1{ color: rgb(25, 45, 5);}
-        </style>
+		<meta charset="utf-8"/>
+		<title>Home page</title>
+		<link href="css/style.css" rel="stylesheet"/>
 	</head>
-    <header>ok</header>
 	<body>
-		
+		<button onclick="myFunction()">Click on me</button>
+		<p id="text"></p>
 	</body>
-    <footer>
-        Подвал=))
-    </footer>
+	<script>
+		function myFunction(){
+			document.getElementById('text').innerHTML = 'Hello world!';
+		}
+	</script>
 </html>
