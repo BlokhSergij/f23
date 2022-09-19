@@ -1,0 +1,7 @@
+git clone url - клонирование репозитория себе
+
+git add .
+
+git commit -m 'first page'
+
+git push 
