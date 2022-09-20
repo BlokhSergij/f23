@@ -1,9 +1,0 @@
-git clone url - клонирование репозитория себе
-
-git add . - добавить все файлы в git 
-
-git commit -m 'first page' создать слепок кода 
-
-git push отправить на удаленный репозиторий 
-
-git status 
