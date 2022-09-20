@@ -1,0 +1,25 @@
+/* Додав вот такий прикол ;) */
+html {
+    margin: 0;
+    height: 100%;
+    background: linear-gradient(50deg, #d84389, #e0d250);
+    background-size: 300%;
+    animation: gradimation 5s ease infinite;
+}
+@keyframes gradimation {
+    0% {
+        background-position: 0 50%;
+    }
+    25% {
+        background-position: 50% 75%;
+    }
+    50% {
+        background-position: 75% 50%;
+    }
+    75% {
+        background-position: 50% 0%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
