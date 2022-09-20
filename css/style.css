@@ -6,6 +6,9 @@ html {
     background-size: 300%;
     animation: gradimation 5s ease infinite;
 }
+table, td {
+    border: 0.5px dashed white;
+}
 @keyframes gradimation {
     0% {
         background-position: 0 50%;
@@ -23,3 +26,4 @@ html {
         background-position: 0 50%;
     }
 }
+/* Ну, як ви могли помітити я не 0. Я вже вчив html, css, трішки js і php(php все позабував, бо давно вчив). Сподіваюсь навчитись багато чому новому на цьому курсі :) */
